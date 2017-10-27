@@ -13,6 +13,7 @@ import static org.apache.coyote.http11.Constants.a;
  * Created by lixing on 2017/6/24.
  */
 @RestController
+@RequestMapping(value = "/feign")
 public class ConsumerController {
     @Autowired
     ComputeClient computeClient;
